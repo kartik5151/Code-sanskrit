@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #242524;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a button{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    height: 200px;
+    
+}
+
+.nav_items {
+    list-style: none;
+}
+
+.nav_items li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_items li a {
+    transition: all 0.5s ease 0s ;
+}
+
+.nav_items li a:hover {
+    color: #0088a9;
+}
+
+button {
+   padding: 9px 25px;
+   background-color: rgb(0, 139, 169, 1);
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: all 0.5s ease 0s ;
+}
+
+button:hover {
+    transition: all 0.5s ease 0s ;
+    background-color: rgb(0, 139, 169, 0.8);
+}
